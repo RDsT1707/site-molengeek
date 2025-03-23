@@ -15,3 +15,26 @@ body {
 .petit-logo {
     height: 30px;
 }
+
+.newsletter {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter span {
+    margin-right: 10px;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+.bouton-vert {
+    background-color: #2ecc40;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

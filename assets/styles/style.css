@@ -69,3 +69,12 @@ body {
 .navigation {
     color: #9c2184;
 }
+.texte-violet {
+    color: #9c2184;
+}
+
+.contenu {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}

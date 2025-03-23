@@ -168,4 +168,13 @@ h2 {
     margin-right: 5px;
 }
 
+.logo-pied {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: #777;
+    font-size: 12px;
+}
 

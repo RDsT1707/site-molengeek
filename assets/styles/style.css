@@ -1,5 +1,6 @@
 
 body {
+    margin: 0px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -8,12 +9,18 @@ body {
     color: white;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .petit-logo {
-    height: 30px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(10);
+    opacity: 50%;
+    clip: rect(auto, auto, 35px, auto);
 }
 
 .newsletter {
@@ -50,33 +57,37 @@ body {
     height: 50px;
 }
 
-.navigation {
+.nav {
     display: flex;
     list-style: none;
+    align-content: space-between;
 }
 
-.navigation li {
-    margin-left: 20px;
+.nav li {
+    margin-left: 50px;
+    
 }
 
-.navigation a {
+.nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     font-size: 14px;
 }
 
-.navigation {
-    color: #9c2184;
+.nav li:hover {
+    border-bottom: solid 2px black;
+    
 }
-.texte-violet {
-    color: #9c2184;
+.lastLI {
+    border-bottom: solid #333;
+    height: 105px;
 }
 
-.contenu {
+.section1 {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 30px 20px;
 }
 .titre-section {
     text-align: center;
@@ -169,6 +180,7 @@ h2 {
 }
 
 .logo-pied {
+    
     height: 60px;
     margin-bottom: 20px;
 }
@@ -178,3 +190,6 @@ h2 {
     font-size: 12px;
 }
 
+footer{
+    margin-top: 80px;
+}
